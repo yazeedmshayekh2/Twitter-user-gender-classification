@@ -36,6 +36,7 @@ before the end, we’re going to concatenate all three layers
 Finally, the outputs will be a dense layer with three probability values of each class (male, female, brand), and a soft max activation function will ensure that their values between 0 and 1, so they can be used as a probability estimates.
 
 This is the summary of our model:
+![image](https://user-images.githubusercontent.com/102586302/175090232-051c22e1-fe54-4afb-b7e9-3b79a678e30a.png)
 
  
 
