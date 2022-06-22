@@ -47,6 +47,7 @@ This is the summary of our model:
 
 
 Our model looks like this:
+![image](https://user-images.githubusercontent.com/102586302/175090471-f2af2c41-f895-42eb-b440-391d17838a22.png)
 
  
 
@@ -114,6 +115,8 @@ First, we evaluate the model on the test set [X_test, desc_test, tweets_test, y_
 Then, we define (y) predict, which was the index of the highest probability from the three different probability values which will be our actual classification.
 Then we used a confusion matrix and classification report as evaluation measures for our model, to know our model performance.
 Now, we visualize our final output to know our model performance:
+![image](https://user-images.githubusercontent.com/102586302/175090697-1b2f20c4-73ea-4a54-a648-6dca4b998626.png)
+
  
 we can see here the number of predicted values for each category and compared with number of actual values for each category.
 1104: the number of predicted values in female’s category, which was the correct predicted values (Female).
@@ -130,13 +133,14 @@ __________________________________________________________________
 
 3: Conclusions
 Our classification report was:
-	precision    	Recall	F1-score	Support
-Female	0.69	0.55	0.61	2004
-Male	0.53	0.66	0.59	 1779
-Brand	0.77	0.75	0.76	1853
+		precision    	Recall	F1-score	Support
+Female		0.69		0.55	0.61		2004
+Male		0.53		0.66	0.59		1779
+Brand		0.77		0.75	0.76		1853
 Accuracy			0.65	5636
-Macro avg	0.66	0.65	0.65	5636
-Weighted avg	0.67	0.65	0.65	5636
+Macro avg	0.66		0.65	0.65		5636
+Weighted avg	0.67		0.65	0.65		5636
+
 As we see, the most easily classified category was a 
 Brand: because precision = 0.77 which means that, 77% of our values were correct in the predictions. Recall = 0.75 which means out of all actual Brand values 75% were correct. Which means it is the easiest for the model to classify.
 Female: precision = 0.69 which means that, 69% of our values were correct in the predictions. Recall = 0.55 which means out of all actual female values 55% were correct.
